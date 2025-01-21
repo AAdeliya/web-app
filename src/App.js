@@ -4,14 +4,22 @@ import { Greet } from './components/Greet'
 import React, { Component } from 'react';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
-
+import Message from './components/Message';
 
 class App extends Component {
   render () {
     return (
     <div className="App">
-      {/*<Greet></Greet> */}
-      {/*<Welcome></Welcome>*/}
+      <Message/>
+      <Greet  name = "Bruce" heroName = "Batman" >
+        <p>This is children props</p></Greet>
+      <Greet name = "Clark" heroName = "Superman">
+        <button>Action</button>
+        </Greet>
+      <Greet name = "Diane" heroName = "Wonder Woman"/>
+      <Welcome name ="Bruce" heroName = "Batman"/>
+      <Welcome name = "Clark" heroName = "Superman"/>
+      <Welcome name = "Clark" heroName = "Superman"/>
       <Hello></Hello>
     </div>
   );
