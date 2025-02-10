@@ -11,17 +11,21 @@ class ParentComponent extends Component {
         this.greetParent = this.greetParent.bind(this)
     }
 
-    greetParent() {
-        alert(`Hello ${this.state.parentName}`)
+    greetParent(childName) {
+        alert(`Hello ${this.state.parentName} from ${childName}`)
 
 
     }
   render() {
     return (
       <div>
-        <ChildComponent></ChildComponent>Component</div>
+        <ChildComponent greetHandler= {this.greetParent} ></ChildComponent>Component</div>
     )
   }
 }
 
 export default ParentComponent
+
+//under ParentComponent define a method
+//under ChildComponent pass a method as a props
+//Access the method using a props object props.greetHandler('child')
