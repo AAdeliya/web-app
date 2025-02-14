@@ -13,4 +13,7 @@ function NameList() {
   )
 }
 
+const personList = personalbar.map(person => <Person key={person.id} person={preson}/>)
+return <div>{personList}</div>
+
 export default NameList
