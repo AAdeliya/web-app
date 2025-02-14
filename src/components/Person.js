@@ -5,6 +5,7 @@ function Person({person, key}) {
     // <h2>
     // {key}    I am {personalbar.name}. I am {personalbar.age} years old
     // </h2>
+    
     <div>Person</div>
   )
 }
