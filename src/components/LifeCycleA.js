@@ -40,6 +40,7 @@ class LifeCycleA extends Component {
         })
     }
 
+
   render() {
     console.log('LifecycleA render')
     return (
