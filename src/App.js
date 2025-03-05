@@ -16,6 +16,7 @@ import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import Tables from './components/Tables';
+import PureComponent from './components/PureComponent';
 
 class App extends Component {
   render () {
@@ -24,6 +25,7 @@ class App extends Component {
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Tables></Tables>
+      <ParentComponent></ParentComponent>
       <LifeCycleA></LifeCycleA>
       <Form></Form>
       <Incline></Incline>
