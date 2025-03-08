@@ -18,6 +18,7 @@ import LifeCycleA from './components/LifeCycleA';
 import Tables from './components/Tables';
 import PureComponent from './components/PureComponent';
 import MemoComponent from './components/MemoComponent';
+import RefsDemo from './components/RefsDemo';
 
 class App extends Component {
   render () {
@@ -26,6 +27,7 @@ class App extends Component {
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Tables></Tables>
+      <RefsDemo></RefsDemo>
       <MemoComponent></MemoComponent>
       <ParentComponent></ParentComponent>
       <LifeCycleA></LifeCycleA>
