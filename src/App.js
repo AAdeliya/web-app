@@ -19,6 +19,7 @@ import Tables from './components/Tables';
 import PureComponent from './components/PureComponent';
 import MemoComponent from './components/MemoComponent';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 
 class App extends Component {
   render () {
@@ -27,6 +28,7 @@ class App extends Component {
       <h1 className='error'>Error</h1>
       <h1 className={styles.success}>Success</h1>
       <Tables></Tables>
+      <FocusInput></FocusInput>
       <RefsDemo></RefsDemo>
       <MemoComponent></MemoComponent>
       <ParentComponent></ParentComponent>
