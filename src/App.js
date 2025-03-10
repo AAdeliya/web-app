@@ -20,12 +20,14 @@ import PureComponent from './components/PureComponent';
 import MemoComponent from './components/MemoComponent';
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 class App extends Component {
   render () {
     return (
     <div className="App">
       <h1 className='error'>Error</h1>
+      <FRParentInput></FRParentInput>
       <h1 className={styles.success}>Success</h1>
       <Tables></Tables>
       <FocusInput></FocusInput>
