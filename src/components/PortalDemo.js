@@ -1,10 +1,12 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 
 function PortalDemo() {
-  return (
-    <div className="App">
-       <PortalDemo></PortalDemo>
-    </div>
+    return ReactDOM.createPortal(
+   <h1> 
+    Portal demo
+   </h1>,
+   document.getElementById('portal-root')
   )
 }
 
