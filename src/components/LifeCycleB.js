@@ -15,7 +15,7 @@ class LifeCycleB extends Component {
         return null
     }
 
-    componentdidMount() {
+    componentDidMount() {
         console.log('LifecycleB cimponentDidMount')
     }
 
@@ -29,7 +29,7 @@ class LifeCycleB extends Component {
         return null 
     }
 
-    componentdidUpdate() {
+    componentDidUpdate() {
         console.log('LifecycleB componentdidUpdate')
     }
 

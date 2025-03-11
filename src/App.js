@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 import { Greet } from './components/Greet'
 import React, { Component } from 'react';
 import Welcome from './components/Welcome';
@@ -11,8 +11,8 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
-import './appStyles.css'
-import styles from './appStyles.module.css'
+
+
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import Tables from './components/Tables';
@@ -28,8 +28,8 @@ class App extends Component {
     <div className="App">
       <h1 className='error'>Error</h1>
       <FRParentInput></FRParentInput>
-      <h1 className={styles.success}>Success</h1>
-      <Tables></Tables>
+      {/* </div><h1 className=>Success</h1> */}
+      {/* <Tables></Tables>
       <FocusInput></FocusInput>
       <RefsDemo></RefsDemo>
       <MemoComponent></MemoComponent>
@@ -37,12 +37,12 @@ class App extends Component {
       <LifeCycleA></LifeCycleA>
       <Form></Form>
       <Incline></Incline>
-      <StyleSheet primary={true}></StyleSheet>
-      <NameList></NameList>
+      {/* <StyleSheet primary={true}></StyleSheet> */}
+      {/* <NameList></NameList>
       <UserGreeting></UserGreeting>
       <ParentComponent></ParentComponent>
-      <EventBind></EventBind>
-      <ClassClick></ClassClick>
+      <EventBind></EventBind> */} 
+      {/* <ClassClick></ClassClick>
       <FunctionClick></FunctionClick>
       <Counter></Counter>
       <Message/>
@@ -54,7 +54,7 @@ class App extends Component {
       <Greet name = "Diane" heroName = "Wonder Woman"/>
       <Welcome name ="Bruce" heroName = "Batman"/>
       <Welcome name = "Clark" heroName = "Superman"/>
-      <Welcome name = "Clark" heroName = "Superman"/>
+      <Welcome name = "Clark" heroName = "Superman"/> */}
       <Hello></Hello>
     </div>
   );
