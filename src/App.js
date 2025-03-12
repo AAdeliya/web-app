@@ -22,11 +22,21 @@ import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
+import ErrorBoundary from './components/ErrorBoundary';
 
 class App extends Component {
   render () {
     return (
     <div className="App">
+      <ErrorBoundary>
+      <Hero geroName = "Batman"/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero geroName = "Superman"/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero geroName = "Joker"/>
+      </ErrorBoundary>
       {/* <h1 className='error'>Error</h1>
       <FRParentInput></FRParentInput> */}
       <PortalDemo>portal</PortalDemo>
