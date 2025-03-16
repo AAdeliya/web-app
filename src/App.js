@@ -30,7 +30,7 @@ class App extends Component {
   render () {
     return (
     <div className="App">
-      <ClickCounter></ClickCounter>
+      <ClickCounter name='Adel'></ClickCounter>
       <ErrorBoundary>
         <HoverCounter></HoverCounter>
       <Hero geroName = "Batman"/>
